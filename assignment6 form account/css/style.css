@@ -1,0 +1,106 @@
+*{
+	border:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body {
+	background-color: grey;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	width: 60%;
+	background-color: white;
+	margin: 100px;
+	margin-right: 50px;
+	height: 400px;
+	border-radius: 30px;
+}
+
+.container .welcome{
+	width: 50%;
+	background-color: blue;
+	border:1px solid black;
+	padding: 70px;
+	border-top-left-radius:30px;
+	border-top-right-radius: 95px;
+	border-bottom-right-radius: 95px;
+	border-bottom-left-radius: 30px;
+	text-align: center;
+	color:white;
+	
+}
+.container .welcome h1{
+	padding: 30px;
+
+}
+.container .welcome p{
+	padding-bottom: 30px;
+}
+.container .welcome a{
+	border:2px solid white;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	color:white;
+}
+ 
+ .container .register{
+ 	padding: 40px;
+ 	text-align: center;
+ }
+ .container .register h2{
+ 	padding: 20px;
+ }
+
+ .container .register div{
+ 	display:flex;
+ 	/*border:1px solid black;*/
+ }
+
+.container .register div .g{
+ 	border:2px solid black;
+ 	padding: 5px;
+ 	margin: 10px;
+ 	border-radius: 5px;
+ }
+
+ .container .register div .f{
+ 	border:2px solid black;
+ 	padding: 5px;
+ 	margin: 10px;
+ 	border-radius: 5px;
+ }
+
+ .container .register div .n{
+ 	border:2px solid black;
+ 	padding: 5px;
+ 	margin: 10px;
+ 	border-radius: 5px;
+ }
+ .container .register div .in{
+ 	border:2px solid black;
+ 	padding: 5px;
+ 	margin: 10px;
+ 	border-radius: 5px;
+ }
+
+ .container .register p{
+ 	float:none;
+ }
+
+ form{
+ 	padding: 10px;
+ }
+ .container .register a{
+ 	border:2px solid white;
+ 	background-color: blue;
+ 	padding: 10px;
+	padding-right: 20px;
+	border-radius: 20px;
+	margin: 20px;
+	margin-top: 20px;
+	color:white;
+ }
